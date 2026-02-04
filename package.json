@@ -6,18 +6,18 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/blog/",
 		"start": "npx @11ty/eleventy --serve --quiet",
-		"start-ghpages": "npx @11ty/eleventy --pathprefix=/web-design-blog-starter/ --serve --quiet"
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/blog/ --serve --quiet"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:samheckle/web-design-blog-starter.git"
+		"url": "git@github.com:portorfolio/blog.git"
 	},
 	"author": {
-		"name": "Sam Heckle",
-		"email": "samantha.heckle@hunter.cuny.edu",
-		"url": "https://samheckle.github.io/web-design-blog-starter"
+		"name": "Ivy Zhao",
+		"email": "ivyzhao335@gmail.com",
+		"url": "https://github.com/portorfolio/blog.git"
 	},
 	"license": "MIT",
 	"engines": {
