@@ -5,6 +5,10 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 
+// module.exports= function(eleventyConfig){
+// 	eleventyConfig.addPassthroughCopy('./css/assets/fonts/1.ttf')
+// }
+
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 	// Drafts, see also _data/eleventyDataSchema.js
