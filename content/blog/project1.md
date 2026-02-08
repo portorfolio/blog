@@ -14,5 +14,9 @@ Unfortunately, I didn't absorb much on it. The next day, I went on some websites
 ## Fonts fonts fonts...
 Then, I looked into fonts. Something more...striking...is preferred. First, I went onto <a href="https://www.dafont.com" target="_blank">dafont</a> since it was already bookmarked. There were over 200 pages of fonts and I was NOT about to go through all of it, even if I fear I might find something better. I was unsure if this project was considered personal or commercial use, though I still downloaded the fonts I liked just in case. At this point, I was still unsure of how the CSS worked; in this case, importing fonts. I went onto the Eleventy documentation once again, and left feeling really confused. There was uncertainty about whether the CSS functions like how I know it does. Eventually I was able to solve my issue, and added the links of the font to <code>base.njk</code> and imported it into <code>index.css</code>
 
+## Layout
+Next came the layout. I wanted the title and nav bar to take up 20-30% of the left side, and everything else on the right. I didn't know how to go about it, especially with positioning things. I went onto 
+
+
 ## References 
 <a href="https://www.11ty.dev/docs/assets/" target="_blank">Importing Assets</a>
