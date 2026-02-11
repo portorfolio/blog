@@ -61,8 +61,18 @@ body {
 	grid: 100%/ auto auto;
 }
 
+
 html {
 	overflow-y: scroll;
+}
+
+.header-nav, .main-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25%;
+	text-align: center;
+	overflow: hidden;
 }
 
 .header-nav{
@@ -112,6 +122,8 @@ p:last-child {
 p {
 	line-height: 1.5;
 	font-size: 1.2em;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
 }
 
 li {
@@ -136,11 +148,14 @@ footer {
 
 #latest-2-posts{
 	text-align: right;
-	
 }
 
 footer{
 	background-color: #c9b1bd;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 main :first-child {
@@ -215,36 +230,34 @@ code {
 /* Header */
 header {
 	display:block;
-	padding: 1rem;
-
+	padding: 1.5rem;
 }
 .home-link {
 	flex-grow: 1;
-	font-size: 3em; /* 16px /16 */
+	font-size: 4rem;
 	font-weight: 700;
 	text-decoration: none;
 }
 .home-link:hover{
-	
+	-webkit-text-stroke-color: #d5dfe5;
+	-webkit-text-stroke-width: 1px;
 }
 
 /* Nav */
 .nav {
-	display: flex;
-	gap: .5em 1em;
-	padding: 0;
-	margin: 0;
+	display: inline-block;
+	margin-top: 2rem;
 	list-style: none;
+	padding-right: 10%;
 }
 .nav-item {
-	display:inline-block;
-	background-color:#c9b1bd;
-	padding: .5em;
-	border-radius: 25%;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+	padding: 1rem;
 }
 .nav-item:hover{
-	background-color: white;
-	transform: scale(1.1);
+	padding: 1rem;
+	background-color: #c9b1bd;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
@@ -320,49 +333,4 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
 }

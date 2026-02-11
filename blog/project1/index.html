@@ -10,7 +10,7 @@
 		<meta name="description" content="Typed">
 		<link rel="alternate" href="/blog/feed/feed.xml" type="application/atom+xml" title="Web blog about web design">
 		
-		<link rel="stylesheet" href="/blog/dist/XysVA2l011.css">
+		<link rel="stylesheet" href="/blog/dist/Wgg-acDcuw.css">
 		
 	</head>
 	<body>
@@ -47,11 +47,20 @@
 <h2 id="things-start-picking-up">Things Start Picking Up?</h2>
 <p>Unfortunately, I didn't absorb much on it. The next day, I went on some websites for inspiration, simply by typing in &quot;blog inspos&quot; in the Google search bar. I encountered awwwards and was a huge fan of <a href="https://www.awwwards.com/inspiration/blog-stripe-dot-dev" target="_blank">this one</a>. Neocities is a well known site, so I went on there as well. Visiting those websites were short lived (for now). No design ideas/sketches/wireframes were started. I went back to my code and realized I could not leave the code untouched simply because I was intimidated by it. I messed around with the <code>index.css</code> file, and accidentally landed on a very unappealing color. This led me to hop on <a href="https://coolors.co" target="_blank">coolers</a> right away. Ideally I'd like the background to have an image or a collage of images, and the space that includes content will be a colored block over it.</p>
 <h2 id="fonts-fonts-fonts">Fonts fonts fonts...</h2>
-<p>Then, I looked into fonts. Something more...striking...is preferred. First, I went onto <a href="https://www.dafont.com" target="_blank">dafont</a> since it was already bookmarked. There were over 200 pages of fonts and I was NOT about to go through all of it, even if I fear I might find something better. I was unsure if this project was considered personal or commercial use, though I still downloaded the fonts I liked just in case. At this point, I was still unsure of how the CSS worked; in this case, importing fonts. I went onto the Eleventy documentation once again, and left feeling really confused. There was uncertainty about whether the CSS functions like how I know it does. Eventually I was able to solve my issue, and added the links of the font to <code>base.njk</code> and imported it into <code>index.css</code></p>
+<p>Then, I looked into fonts. Something more...striking...is preferred. First, I went onto <a href="https://www.dafont.com" target="_blank">dafont</a> since it was already bookmarked. There were over 200 pages of fonts and I was NOT about to go through all of it, even if I fear I might find something better. I was unsure if this project was considered personal or commercial use, though I still downloaded the fonts I liked just in case. At this point, I was still unsure of how the CSS worked; in this case, importing fonts. I went onto the Eleventy documentation once again, and left feeling really confused. There was uncertainty about whether the CSS functions like how I know it does. Eventually I was able to solve my issue, and added the link of this <a href="https://fonts.google.com/specimen/Unkempt?query=unke" target="_blank"> Google font </a> to <code>base.njk</code> and imported it into <code>index.css</code>.</p>
 <h2 id="layout">Layout</h2>
-<p>Next came the layout. I wanted the title and nav bar to take up 20-30% of the left side, and everything else on the right. I didn't know how to go about it, especially with positioning things. I went onto</p>
-<h2 id="references">References</h2>
-<p><a href="https://www.11ty.dev/docs/assets/" target="_blank">Importing Assets</a></p>
+<p>Next came the layout. I wanted the title and nav bar to take up 20-30% of the left side, and everything else on the right. I didn't know how to go about it, especially with positioning things. I went onto <a href="https://learnlayout.com/inline-block" target="blank">learnlayout.come</a> to find quick and simple demonstrations on css layouts. I did dabble into w3 schools too, but this website feels like everything is quicker to navigate to. I was messing with border radius, because I kind of liked the look of each element being circular and having a background color behind it. The issue was that the words were now being cut off. I attempted to fix it with this code:</p>
+<pre class="language-js" tabindex="0"><code class="language-js"><span class="token punctuation">.</span>header<span class="token operator">-</span>nav<span class="token punctuation">,</span> <span class="token punctuation">.</span>main<span class="token operator">-</span>content<span class="token punctuation">{</span>
+	<span class="token literal-property property">display</span><span class="token operator">:</span> flex<span class="token punctuation">;</span>
+	justify<span class="token operator">-</span>content<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	align<span class="token operator">-</span>items<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	border<span class="token operator">-</span>radius<span class="token operator">:</span> <span class="token number">25</span><span class="token operator">%</span><span class="token punctuation">;</span>
+	text<span class="token operator">-</span>align<span class="token operator">:</span> center<span class="token punctuation">;</span>
+	<span class="token literal-property property">overflow</span><span class="token operator">:</span> hidden<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>But it didn't solve the issue, so I resorted to decreasing the border radius to 25%.</p>
+<h2 id="near-the-end">Near the End</h2>
+<p>I've learned that going in without a wireframe/sketch is not the best idea. My blog is still a work in progress and I'm hoping to make changes to it as I proceed with the course.</p>
 
 <ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/blog/example_post/">How to Write a Blog</a></li>
 </ul>
@@ -63,7 +72,7 @@
 			</p>
 		</footer>
 
-		<!-- This page `/blog/project1/` was built on 2026-02-08T20:31:01.144Z -->
+		<!-- This page `/blog/project1/` was built on 2026-02-11T18:26:46.867Z -->
 		<script type="module" src="/blog/dist/cC8wS6ZjFU.js"></script>
 		</main>
 	</div>
