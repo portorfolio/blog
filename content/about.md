@@ -6,4 +6,4 @@ const eleventyNavigation = {
 ---
 # About
 
-I am a person that writes stuff. Yea that's so true
+This is a work-in-progress blog for my Web Design Projects course.
