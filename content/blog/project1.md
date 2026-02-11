@@ -29,4 +29,4 @@ Next came the layout. I wanted the title and nav bar to take up 20-30% of the le
 But it didn't solve the issue, so I resorted to decreasing the border radius to 25%.
 
 ## Takeaways
-I've learned that going in without a wireframe/sketch is not the best idea. Too much time was spent on trying to figure out the design. My blog is still a work in progress and I'm hoping to make changes to it as I proceed with the course. 
+I've learned that going in without a wireframe/sketch is not the best idea. Too much time was spent on trying to figure out the design, and not enough on research. My blog is still a work in progress and I'm hoping to make changes to it as I proceed with the course. 
