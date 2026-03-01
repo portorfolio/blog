@@ -1,7 +1,7 @@
 ---
 title: Reading Response No.2
 description: Typed
-date: 2026-03-1
+date: 2026-03-01
 tags: ["Reads"]
 ---
 ## The Age of Surveillance Capitalism
