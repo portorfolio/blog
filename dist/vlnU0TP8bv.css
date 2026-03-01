@@ -141,18 +141,22 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main,
-footer {
-	padding: 1rem;
+main{
+	padding: 3rem;
+	margin: 0 auto;
 }
+
 
 #latest-2-posts{
 	text-align: right;
 }
 
 footer{
+	border-radius: 50%;
+	padding: 1em;
+	margin: 0 auto;
 	background-color: #c9b1bd;
-	width: 100%;
+	width: 70%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -333,4 +337,49 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
