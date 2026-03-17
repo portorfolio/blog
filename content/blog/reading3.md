@@ -1,5 +1,5 @@
 ---
-title: Reading Resposne No.3
+title: Reading Response No.3
 description: For a reading assignment
 date: 2026-03-09
 tags: ["Reads"]
