@@ -13,3 +13,4 @@ I was responsible for handling the backend (server.js) and altered a bit of the 
 
 ## Links to other group members' blogs
 <a href = "https://jorgevin74.github.io/web-design-blog/blog/project-2-final/" target="_blank">Jorge's post</a>
+<a href = "https://werner1020p.github.io/web_design_projects_blogs/blog/project2final/" target="_blank">Werner's post</a>
