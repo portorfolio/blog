@@ -51,7 +51,7 @@ html,
 body {
 	min-height: 100vh;
 	padding: 0;
-	margin: 0;
+	margin: 3rem;
 	font-family: "Unkempt",cursive;
 	font-weight: 400;
 	font-style: normal;
@@ -70,18 +70,19 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 25%;
 	text-align: center;
 	overflow: hidden;
 }
 
 .header-nav{
 	background-color: #b49594;
+	display:block;
+	margin-right: 10px;
 }
 
 .main-content{
 	background-color: #d5dfe5;
-	width: 80rem;
+	width: 70rem;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -141,18 +142,11 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
-main{
-	padding: 3rem;
-	margin: 0 auto;
-}
-
-
 #latest-2-posts{
 	text-align: right;
 }
 
 footer{
-	border-radius: 50%;
 	padding: 1em;
 	margin: 0 auto;
 	background-color: #c9b1bd;
@@ -160,6 +154,10 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+main{
+	padding: 1rem;
 }
 
 main :first-child {
@@ -234,14 +232,15 @@ code {
 /* Header */
 header {
 	display:block;
-	padding: 1.5rem;
 }
+
 .home-link {
 	flex-grow: 1;
-	font-size: 4rem;
+	font-size: 4em;
 	font-weight: 700;
 	text-decoration: none;
 }
+
 .home-link:hover{
 	-webkit-text-stroke-color: #d5dfe5;
 	-webkit-text-stroke-width: 1px;
@@ -250,7 +249,6 @@ header {
 /* Nav */
 .nav {
 	display: inline-block;
-	margin-top: 2rem;
 	list-style: none;
 	padding-right: 10%;
 }

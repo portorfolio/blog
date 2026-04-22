@@ -20,4 +20,4 @@ I think as technology and social media evolves, the norm for what a moderator do
 The author makes an interesting point of how moderators went from keeping the communities happy to having to bear the burden of seeing a lot of nsfw things and making sure the users don't see them, and that they'll keep using the platform since it's "safe enough".
 
 ## What I took away from this
-If we're going to be online, we should make sure it's by the people and for the people. Online local communities may be worth having a comeback for. 
+If we're going to be online, we should make sure it's by the people and for the people. Online local communities may be worth having a comeback for
