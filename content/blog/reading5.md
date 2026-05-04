@@ -5,7 +5,9 @@ date: 2026-04-23
 tags: ["reads"]
 ---
 ## The Internet Has Borders
-revisit, site is down
+First off, pretty impressive to begin coding at 10. One of the first questions I had while reading was how the author maintains their digital presence throughout multiple countries. I like the advocation for self-hosting websites rather than doing it on a dedicated platform. 
+
+Digital neutrality isn't something I sit and think about, maybe because in my mind I've always assumed it's not neutral. I can't really list anything that's actually neutral, and things that's manmade are definitely not that. 
 
 ## Alive Internet Theory
 This reminds me of a thought I typically have when I hear people say that the web will be overtaken with bots. I think to myself, "no way will people let that happen, they love being on the internet". The author makes an interesting proposition about thriving on the internet than just surviving. I think surviving on the internet means you're on it, but you're not really spending your time in the best/meaningful way for yourself. An example is scrolling mindlessly. When I accidentally fall into that, I end up feeling horrible. But when I'm on some cool artsy community made website it's like sunshine and rainbows. 
